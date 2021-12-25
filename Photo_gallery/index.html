@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery with Lightbox</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <h1>Naruto Shippuden</h1>
+
+    <div class="container">
+        <ul class="gallery">
+            <li>
+                <a href="#img-1">
+                    <img src="assets/img/thumbs/kakashi.jpg" alt="Hatake Kakashi">
+                    <span>Kakashi</span>
+                </a>
+
+                <div class="overlay" id="img-1">
+                    <a href="#" class="close">x close</a>
+                    <a href="#img-4" class="prev">prev</a>
+                    <img src="assets/img/full/kakashi_fb.png" alt="Hatake Kakashi">
+                    <a href="#img-2" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#img-2">
+                    <img src="assets/img/thumbs/naruto.jpg" alt="Uzumaki Naruto">
+                    <span>Naruto</span>
+                </a>
+
+                <div class="overlay" id="img-2">
+                    <a href="#" class="close">x close</a>
+                    <a href="#img-1" class="prev">prev</a>
+                    <img src="assets/img/full/naruto_fb.png" alt="Uzumaki Naruto">
+                    <a href="#img-3" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#img-3">
+                    <img src="assets/img/thumbs/sasuke.jpg" alt="Uchiha Sasuke">
+                    <span>Sasuke</span>
+                </a>
+
+                <div class="overlay" id="img-3">
+                    <a href="#" class="close">x close</a>
+                    <a href="#img-2" class="prev">prev</a>
+                    <img src="assets/img/full/sasuke_fb.png" alt="Uchiha Sasuke">
+                    <a href="#img-4" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#img-4">
+                    <img src="assets/img/thumbs/sakura.jpg" alt="Haruno Sakura">
+                    <span>Sakura</span>
+                </a>
+
+                <div class="overlay" id="img-4">
+                    <a href="#" class="close">x close</a>
+                    <a href="#img-3" class="prev">prev</a>
+                    <img src="assets/img/full/sakura_fb.png" alt="Haruno Sakura">
+                    <a href="#img-1" class="next">next</a>
+                </div>
+            </li>
+
+            <div class="clear"></div>
+        </ul>
+    </div>
+
+</body>
+</html>
